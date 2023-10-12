@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
-- Live Site URL: [Github Pages]()
+- Solution URL: [Github](https://github.com/CodingDummies/todo-app-main)
+- Live Site URL: [Github Pages](https://codingdummies.github.io/todo-app-main/)
 
 ## My process
 
