@@ -1,0 +1,65 @@
+.list-toggle {
+  display: flex;
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #d2d3db;
+  cursor: pointer;
+}
+.list-toggle:hover {
+  background:
+    linear-gradient(#fafafa, #fafafa) padding-box,
+    linear-gradient(#57ddff, #c058f3) border-box;
+  border: 2px solid transparent;
+}
+.list-toggle.active {
+  background-image: linear-gradient(#57ddff, #c058f3) !important;
+}
+html.dark .list-toggle {
+  border-color: #393a4c;
+}
+html.dark .list-toggle:hover {
+  background:
+    linear-gradient(#25273c, #25273c) padding-box,
+    linear-gradient(#57ddff, #c058f3) border-box;
+  border: 2px solid transparent;
+}
+
+.todo-text {
+  position: relative;
+  color: #484b6a;
+  overflow: auto;
+}
+html.dark .todo-text {
+  color: #d2d3db;
+}
+
+.todo-text.active {
+  color: #d2d3db;
+  text-decoration: line-through;
+}
+html.dark .todo-text.active {
+  color: #777a92;
+}
+
+.options {
+  color: #777a92;
+}
+.options:hover {
+  color: #484b6a;
+}
+html.dark .options:hover {
+  color: #e4e5f1;
+}
+.options.active {
+  color: #3a7bfd !important;
+}
+
+@media screen and (max-width: 375px) {
+  .todo-text {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
